@@ -1,0 +1,25 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="linear_mpc" type="Config">
+  <param name="q_x" type="double" value="46.0" />
+  <param name="q_y" type="double" value="46.0" />
+  <param name="q_z" type="double" value="59.0" />
+  <param name="q_vx" type="double" value="1.0" />
+  <param name="q_vy" type="double" value="1.0" />
+  <param name="q_vz" type="double" value="1.0" />
+  <param name="q_final_x" type="double" value="1.0" />
+  <param name="q_final_y" type="double" value="1.0" />
+  <param name="q_final_z" type="double" value="1.0" />
+  <param name="q_final_vx" type="double" value="1.0" />
+  <param name="q_final_vy" type="double" value="1.0" />
+  <param name="q_final_vz" type="double" value="1.0" />
+  <param name="r_roll" type="double" value="50.0" />
+  <param name="r_pitch" type="double" value="50.0" />
+  <param name="r_thrust" type="double" value="1.0" />
+  <param name="roll_max" type="double" value="0.45" />
+  <param name="pitch_max" type="double" value="0.45" />
+  <param name="thrust_min" type="double" value="1.25" />
+  <param name="thrust_max" type="double" value="13.25" />
+</node>
+\endverbatim
+

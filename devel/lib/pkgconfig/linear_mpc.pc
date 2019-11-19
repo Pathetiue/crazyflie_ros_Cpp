@@ -1,0 +1,8 @@
+prefix=/home/yangrui/junhan_ws/devel
+
+Name: linear_mpc
+Description: Description of linear_mpc
+Version: 0.0.0
+Cflags: -I/home/yangrui/junhan_ws/devel/include -I/home/yangrui/junhan_ws/src/linear_mpc/include
+Libs: -L/home/yangrui/junhan_ws/devel/lib -lcvxgen_solver
+Requires: roscpp dynamic_reconfigure message_runtime geometry_msgs std_msgs mav_msgs
